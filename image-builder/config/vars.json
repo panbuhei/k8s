@@ -1,0 +1,17 @@
+{
+  "kubernetes_container_registry": "registry.aliyuncs.com/google_containers",
+  "pause_image": "k8s-gcr.panbuhei.online/pause:3.6",
+  "kubernetes_deb_gpg_key": "https://mirrors.aliyun.com/kubernetes/apt/doc/apt-key.gpg",
+  "kubernetes_deb_repo": "\"https://mirrors.aliyun.com/kubernetes/apt/ kubernetes-xenial\"",
+  "kubernetes_deb_version": "1.22.8-00",
+  "kubernetes_series": "v1.22",
+  "kubernetes_semver": "v1.22.8",
+  "containerd_url": "http://10.0.30.29/K8sFileDownload/github.com/containerd/containerd/releases/download/v1.6.2/cri-containerd-cni-1.6.2-linux-amd64.tar.gz",
+  "containerd_sha256": "91f1087d556ecfb1f148743c8ee78213cd19e07c22787dae07fe6b9314bec121",
+  "containerd_version": "1.6.2",
+  "crictl_url": "http://10.0.30.29/K8sFileDownload/github.com/kubernetes-sigs/cri-tools/releases/download/v1.23.0/crictl-v1.23.0-linux-amd64.tar.gz",
+  "crictl_sha256": "b754f83c80acdc75f93aba191ff269da6be45d0fc2d3f4079704e7d1424f1ca8",
+  "crictl_version": "1.23.0",
+  "goss_download_path": "http://10.0.30.29/K8sFileDownload/github.com/aelsabbahy/goss/releases/download/v0.3.16/goss-linux-amd64",
+  "goss_version": "0.3.16"
+}
