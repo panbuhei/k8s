@@ -1,0 +1,11 @@
+clouds:
+  capi:
+    identity_api_version: 3
+    auth:
+      auth_url: http://172.168.30.241:5000/v3/
+      project_domain_name: default
+      user_domain_name: default
+      project_name: admin
+      username: admin
+      password: admin
+    region_name: RegionOne

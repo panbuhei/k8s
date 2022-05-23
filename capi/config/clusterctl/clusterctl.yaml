@@ -1,0 +1,16 @@
+providers:
+  - name: "cluster-api"
+    url: "/root/.cluster-api/overrides/cluster-api/latest/core-components.yaml"
+    type: "CoreProvider"
+  - name: "kubeadm"
+    url: "/root/.cluster-api/overrides/bootstrap-kubeadm/latest/bootstrap-components.yaml"
+    type: "BootstrapProvider"
+  - name: "kubeadm"
+    url: "/root/.cluster-api/overrides/control-plane-kubeadm/latest/control-plane-components.yaml"
+    type: "ControlPlaneProvider"
+  - name: "openstack"
+    url: "/root/.cluster-api/overrides/infrastructure-openstack/latest/infrastructure-components.yaml"
+    type: "InfrastructureProvider"
+cert-manager:
+  url: "/root/.cluster-api/overrides/cert-manager/latest/cert-manager.yaml"
+  version: "v1.7.2"
